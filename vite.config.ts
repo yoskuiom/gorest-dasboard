@@ -6,12 +6,14 @@ export default defineConfig({
   base: '/',
   optimizeDeps: {
     include: [
+      'compute-scroll-into-view',
       'react-transition-group',
       '@bem-react/classname',
       '@bem-react/classnames',
       '@reatom/core',
       '@reatom/npm-react',
       '@consta/uikit',
+      'react-is',
     ],
   },
   build: {
