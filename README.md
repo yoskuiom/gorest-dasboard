@@ -29,17 +29,21 @@
 3. Любой браузер (в том числе Яндекс.Браузер и Microsoft Edge)
 
 **Установка проекта**
-1. Клонируйте репозиторий 
- git clone https://github.com/yoskuiom/gorest-dasboard
+1. Клонируйте репозиторий
+    ```bash
+   git clone https://github.com/yoskuiom/gorest-dasboard
 
-2. Перейдите в папку проекта:
-  cd gorest-dashboard
+3. Перейдите в папку проекта:
+    ```bash
+    cd gorest-dashboard
 
-3. Установите зависимости:
-  npm install --legacy-peer-deps
+5. Установите зависимости:
+    ```bash
+    npm install --legacy-peer-deps
 
-4. запустите в режиме разработки
-  npm run dev
+7. запустите в режиме разработки
+    ```bash
+    npm run dev
 
 После запуска проект будет доступен по адресу: http://localhost:5173 (или другому порту, указанному в терминале)
 
