@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@babel/runtime": "^7.29.2",
     "@consta/icons": "^1.7.1",
     "@consta/uikit": "^5.32.0",
     "@consta/widgets": "^5.0.0",
