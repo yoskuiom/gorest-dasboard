@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  font-family: Roboto, Arial;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f7fa;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 1920px;
+  padding: 0 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.unstable-table {
+  background-color: white !important;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.unstable-table thead tr {
+  background-color: #fcfcfc !important;
+}
+
+.unstable-table tbody tr:hover {
+  background-color: #f0f7ff !important;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.consta-uikit-Card {
+  width: 100%;
+  border-radius: 12px !important;
+  border: 1px solid #e6e9ed !important;
+}
+
+:root {
+  --color-bg-brand: #0252b4;
+  --color-bg-brand-hover: #1299b1;
+}
+
+.page-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.comments-section {
+  margin-top: 32px;
+  border-top: 2px solid #e6e9ed;
+  padding-top: 24px;
+}
